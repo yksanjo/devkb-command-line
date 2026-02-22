@@ -1,47 +1,84 @@
-# DevKB CLI - Developer Knowledge Base (CLI Edition)
+# devkb-command-line
 
-A terminal-based knowledge management system for developers to index and query their codebase.
+## Detailed Description
 
-## Features
+devkb-command-line is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-- **Index** - Index codebase files for searching
-- **Search** - Search indexed files
-- **Ask** - Ask questions about your codebase
-- **Add** - Add knowledge entries
-- **List** - List all knowledge entries
-- **Stats** - Show statistics
+## Problem Statement
 
-## Installation
+Describe the user or business problem this project solves, the target users, and expected outcomes.
+
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-npm install -g @devkb/cli
+npm ci
+npm run lint
+npm test
+npm run build
 ```
 
 ## Usage
 
-```bash
-# Initialize DevKB in your project
-devkb init
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-# Index your codebase
-devkb index
+## Quality Standards
 
-# Search for files
-devkb search "auth"
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-# Ask a question
-devkb ask "how do we handle authentication?"
+## Security
 
-# Add a knowledge entry
-devkb add decision --title "Chose JWT for auth" --content "..." --tags auth,jwt
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-# List all entries
-devkb list
+## Contributing
 
-# Show statistics
-devkb stats
-```
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
