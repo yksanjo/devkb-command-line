@@ -1,5 +1,12 @@
 # devkb-command-line
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/devkb-command-line/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/devkb-command-line/actions)
+![License](https://img.shields.io/github/license/yksanjo/devkb-command-line)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/devkb-command-line)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/devkb-command-line)
+
 ## Detailed Description
 
 devkb-command-line is maintained as an industry-grade software project with production-ready engineering practices.  
